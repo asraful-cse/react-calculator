@@ -32,11 +32,11 @@ const App = () => {
         </from>
 
         <div className="keypad">
-          <button className="highlight" onClick={clear} id="clear">
-            Clear
+          <button onClick={clear} id="clear">
+            A/C
           </button>
-          <button className="highlight" onClick={backspace} id="backspace">
-            C
+          <button onClick={backspace} id="backspace">
+            CE
           </button>
           <button className="highlight" name="/" onClick={handleClick}>
             &divide;
@@ -77,13 +77,13 @@ const App = () => {
           <button className="highlight" name="+" onClick={handleClick}>
             +
           </button>
-          <button name="0" onClick={handleClick}>
+          <button name="0" onClick={handleClick} id="result">
             0
           </button>
-          <button className="highlight" name="." onClick={handleClick}>
+          <button name="." onClick={handleClick}>
             .
           </button>
-          <button className="highlight" onClick={calculate} id="result">
+          <button className="highlight" onClick={calculate}>
             =
           </button>
         </div>
