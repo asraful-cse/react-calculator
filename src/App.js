@@ -13,7 +13,6 @@ const App = () => {
   };
 
   const backspace = () => {
-    // setResult(result.slice(0, result.length -1));
     setResult(result.slice(0, -1));
   };
 
