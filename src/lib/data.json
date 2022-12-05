@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "symbolName": "AC",
+    "functionName": "clear"
+  },
+  {
+    "id": 2,
+    "symbolName": "+/-",
+    "functionName": "positiveNegative"
+  },
+  {
+    "id": 3,
+    "symbolName": "%",
+    "functionName": "percentage"
+  },
+  {
+    "id": 4,
+    "symbolName": "/",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 5,
+    "symbolName": "7",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 6,
+    "symbolName": "8",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 7,
+    "symbolName": "9",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 8,
+    "symbolName": "*",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 9,
+    "symbolName": "4",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 10,
+
+    "symbolName": "5",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 11,
+    "symbolName": "6",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 12,
+    "symbolName": "-",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 13,
+    "symbolName": "1",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 14,
+    "symbolName": "2",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 15,
+    "symbolName": "3",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 12,
+    "symbolName": "+",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 13,
+    "symbolName": "0",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 14,
+    "symbolName": ".",
+    "functionName": "handleClick"
+  },
+  {
+    "id": 15,
+    "symbolName": "=",
+    "functionName": "calculate"
+  }
+]
