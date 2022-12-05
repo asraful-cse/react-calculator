@@ -52,16 +52,16 @@ const App = () => {
                     : ""
                 }`}
                 onClick={() =>
-                  item.functionName === "clear"
+                  item.functionName === "calculate"
+                    ? calculate()
+                    : item.functionName === "clear"
                     ? clear()
+                    : item.functionName === "percentage"
+                    ? percentage()
                     : item.functionName === "positiveNegative"
                     ? positiveNegative()
                     : item.functionName === "handleClick"
                     ? handleClick(item.symbolName)
-                    : item.functionName === "percentage"
-                    ? percentage()
-                    : item.functionName === "calculate"
-                    ? calculate()
                     : null
                 }
                 id={item.id}
