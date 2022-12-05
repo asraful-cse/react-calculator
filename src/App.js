@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import buttons from "./lib/data.json";
+import AllButtons from "./lib/data.json";
 const App = () => {
   const [result, setResult] = useState("");
 
@@ -38,9 +38,9 @@ const App = () => {
         <from>
           <input type="text" value={result} />
         </from>
-        {buttons.length > 0 ? (
+        {AllButtons.length > 0 ? (
           <div className="keypad">
-            {buttons.map((item) => (
+            {AllButtons.map((item) => (
               <button
                 className={`${item.symbolName === "0" ? "result" : ""} ${
                   item.symbolName === "/" ||
