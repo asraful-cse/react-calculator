@@ -17,17 +17,21 @@ const App = () => {
   };
 
   const positiveNegative = () => {
-    setResult((eval(result * -1).toString()));
+    setResult(eval(result * -1).toString());
   };
   const percentage = () => {
-    setResult( (eval(result / 100).toString()));
+    setResult(eval(result / 100).toString());
   };
 
   const calculate = () => {
     try {
       setResult(eval(result).toString());
     } catch (error) {
-      setResult( alert('An input should be a math symbol! (+, -, *, /, +/-) Please AC button click to try again?'));
+      setResult(
+        alert(
+          "An input should be a math symbol! (+, -, *, /, +/-) Please AC button click to try again?"
+        )
+      );
     }
   };
 
