@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const positiveNegative = () => {
-    setResult(result * -1);
+    setResult((eval(result * -1).toString()));
   };
   const percentage = () => {
     setResult(result / 100);
