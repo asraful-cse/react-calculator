@@ -27,7 +27,7 @@ const App = () => {
     try {
       setResult(eval(result).toString());
     } catch (error) {
-      setResult("ERROR");
+      setResult( alert('An input should be a math symbol! (+, -, *, /) Please AC button click to try again?'));
     }
   };
 
